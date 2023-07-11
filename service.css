@@ -1,0 +1,11 @@
+.service-s1::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: url('/s3-background.png') no-repeat;
+    background-size: cover;
+    transform: rotate(180deg);
+}
